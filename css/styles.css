@@ -65,13 +65,15 @@ address {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36em;
-  text-shadow: 0 0 5px #27262690;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* text-shadow: 0 0 5px #27262690; */
   margin-top: 0;
   /* margin-bottom: 30px; */
   /* outline: 3px solid cornflowerblue; */
 }
 
-.nav {
+.hed > .nav {
   color: var(--main-color);
   list-style: none;
   font-weight: 500;
@@ -79,6 +81,7 @@ address {
   line-height: 1.14em;
   letter-spacing: 0.02em;
   font-style: normal;
+  padding-bottom: 29px;
 }
 
 .link {
@@ -90,6 +93,10 @@ address {
 .nav:hover,
 .nav:focus {
   color: var(--accent-color);
+}
+.nav-border:hover {
+  border-bottom: 4px solid;
+  border-radius: 2px;
 }
 
 .name {
@@ -172,10 +179,11 @@ address {
 }
 
 .title {
-  font-size: 14px;
   font-size: 36px;
   text-align: center;
   margin-bottom: 50px;
+  text-transform: none;
+  line-height: 1.16em;
 }
 
 .white {
@@ -240,6 +248,7 @@ footer {
 .direction {
   font-size: 16px;
   line-height: 1.18em;
+  letter-spacing: 0.03em;
   /*   padding-bottom: 16px; */
   text-align: center;
 }
